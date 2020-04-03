@@ -1,0 +1,6 @@
+Cadastro de cliente dja sta;
+
+Adiciona atributo 'Sexo' na tabela tbl_usuario
+Nome - Sexo
+Tipo - BIT
+Tamanho/Valores - 1

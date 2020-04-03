@@ -1,0 +1,83 @@
+section#home{
+    position: relative;
+    width: 100%;
+    background: #12939a;
+    top: 60px;
+    min-height: 500px;
+    height: auto;
+    
+}
+
+section#home h1{
+   position: absolute;
+   left: 50px;
+   top: 30px;
+   color: white;
+}
+section#home h5{
+   position: absolute;
+   left: 80px;
+   top: 60px;
+   color: white;
+}
+
+section#home img{
+    width: 100%;
+    max-height: 400px;
+    position: absolute;
+    bottom: 0px;
+}
+
+section#home form#formulario_particular{
+    position: absolute;
+    width: 400px;
+    right: 100px;
+    top: 50px;
+    background: linear-gradient(to bottom, #12939a  20%, rgba(18, 147, 154, .5));
+    text-align: center;
+    padding: 10px 3px;
+    
+}
+
+form#formulario_particular h2{color: white; text-align: left; margin-left: 10px;}
+form#formulario_particular p{color: white; text-align: left; margin: 6px 0px 20px 10px;}
+
+form#formulario_particular input[type=text],form#formulario_particular input[type=email],form#formulario_particular input[type=password],form#formulario_particular input[type=number]{
+    width: 340px;
+    padding: 5px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #666;
+}
+
+form#formulario_particular input[type=date]{
+    padding: 5px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    margin: 8px 0px;
+    color: #666;
+}
+
+form#formulario_particular span.error{color: rgb(250, 260, 1);}
+
+form#formulario_particular a{text-decoration: none; color: #666;}
+/*#5094ff*/
+form#formulario_particular a:hover{text-decoration: underline;}
+
+
+ form#formulario_particular input[type=submit]{
+    width: 120px;
+    background: white;
+    color: #12939a;
+    font-weight: bold;
+    padding: 14px 20px;
+    margin: 10px 0px 3px 0px;;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

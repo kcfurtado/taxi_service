@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#corpo{
+    margin: auto;
+    max-width: 1366px;
+    padding: 0px;
+    background: #12939a url('../img/map.png') center no-repeat fixed;
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    max-width: 1366px;
+    width: 100%;
+    height: 60px;
+    background: white;
+    z-index: 999;
+}
+
+header h1{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+h1 a{
+    text-decoration: none;
+    color: #555;
+}
+
+h1 a samp{
+    color: #12939a;
+}
+
+header nav{
+    position: absolute;
+    left: 200px;
+    top: 20px;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+}
+
+nav li a{
+    text-decoration: none;
+    padding: 16px 10px 10px 10px;
+    color: #555;
+    transition: all ease-out .1s;
+}
+
+nav li a:hover, .ativo{
+   border-top: 4px solid #12939a;
+   color: #12939a;
+}
+/*Menu esquedo*/
+div#inp{
+    position: absolute;
+    right: 70px;
+    top: 16px;
+}
+
+#inp a{
+    text-decoration: none;
+    padding: 16px 10px 10px 10px;
+    color: #555;
+    transition: all ease-out .1s;
+}
+
+#inp a:hover, .ativo{
+   border-top: 4px solid #12939a;
+   color: #12939a;
+}
+
+#inp input#motorista{
+    width: 140px;
+    height: 30px;
+    border: none;
+    background: #12939a;
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    transition: all ease-out 0.2s;
+}
+
+#inp input#motorista:hover{
+    background: transparent;
+    border: 1px solid #12939a;
+    color: #12939a;
+}
+
+/*Login*/
+
+div#login{
+    position: fixed;
+    top: 60px;
+    left: 58%;
+    width: 500px;
+    height: 100px;
+    background: white;
+    z-index: 999;
+    display: none;
+    transition: ease-out 1s;
+}
+
+div#login form{
+    width: 100%;
+    margin-top: 32px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+div#login form input[type=text], div#login form input[type=password]{
+    height: 20px;
+    width: 200px;
+    outline: none;
+
+}
+
+div#login form input[type=submit]{
+    height: 26px;
+    width: 60px;
+    background: #12939a;
+    border: none;
+    color: white;
+}
+
+
+div#login spam{
+    margin-left: 15px;
+    color: red;
+}

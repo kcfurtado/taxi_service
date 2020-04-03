@@ -1,0 +1,261 @@
+section#home{
+    position: relative;
+    width: 100%;
+    background: #12939a;
+    top: 60px;
+    min-height: 500px;
+    height: auto;
+    
+}
+
+section#home h1{
+   position: absolute;
+   left: 50px;
+   top: 30px;
+   color: white;
+}
+section#home h5{
+   position: absolute;
+   left: 80px;
+   top: 60px;
+   color: white;
+}
+
+section#home img{
+    width: 100%;
+    max-height: 400px;
+    position: absolute;
+    bottom: 0px;
+}
+
+section#home form#registo_user{
+    position: absolute;
+    width: 400px;
+    right: 100px;
+    top: 50px;
+    background: linear-gradient(to bottom, #12939a  20%, rgba(18, 147, 154, .5));
+    text-align: center;
+    padding: 10px 3px;
+    
+}
+
+form#registo_user h2{color: white; text-align: left; margin-left: 10px;}
+form#registo_user p{color: white; text-align: left; margin: 6px 0px 20px 10px;}
+
+form#registo_user input[type=text],form#registo_user input[type=email],form#registo_user input[type=password],form#registo_user input[type=number]{
+    width: 340px;
+    padding: 5px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #666;
+}
+
+form#registo_user input[type=date]{
+    padding: 5px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    margin: 8px 0px;
+    color: #666;
+}
+
+form#registo_user input[type=radio]{margin: 8px 0px; color: #666;}
+
+form#registo_user span.error{color: rgb(250, 260, 1);}
+
+form#registo_user a{text-decoration: none; color: #666;}
+/*#5094ff*/
+form#registo_user a:hover{text-decoration: underline;}
+
+
+ form#registo_user input[type=submit]{
+    width: 120px;
+    background: white;
+    color: #12939a;
+    font-weight: bold;
+    padding: 14px 20px;
+    margin: 10px 0px 3px 0px;;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+/*Section Info*/
+section#info{
+    width: 100%;
+    background: white;
+    min-height: 400px;
+}
+
+section#info div#cont{
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    padding-top: 140px;
+    padding-bottom: 50px;
+}
+
+section#info div#cont h2{
+    text-align: left;
+    color: #12939a;
+    margin-bottom: 50px;
+}
+
+section#info div#cont div{
+    width: 250px;
+    height: 250px;
+    display: inline-table;
+    margin: 5px;
+    border: 1px solid white;
+    padding-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.29); 
+}
+
+section#info div#cont div img{width: 100px; height: 100px; border-radius: 50%; margin-bottom: 10px;}
+section#info div#cont div summary{font-weight: bold; margin-bottom: 5px;}
+
+/*Section Estimativa*/
+section#estimativa{
+    width: 100%; 
+    height: 400px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.29); 
+}
+
+section#estimativa form{
+    float: left;
+    width: 500px;
+    margin-left: 80px;
+}
+section#estimativa form h2{margin-bottom: 40px;}
+
+section#estimativa form input#des{
+    width: 300px;
+    height: 30px;
+    margin: 10px 0px 10px 60px;
+    outline: none;
+}
+
+section#estimativa form div#part{
+    background: white;
+    border: 1px solid #aaa;
+    width: 300px;
+    height: 35px;
+    margin: 10px 0px 10px 60px;
+}
+
+section#estimativa form div#part input#par{
+    float: left;
+    width: 260px;
+    height: 30px;
+    outline: none;
+    border: none;
+}
+
+section#estimativa form div#part img#local{
+    float: left;
+    width: 33px;
+    height: 33px;
+    cursor: pointer;
+}
+
+section#estimativa form input[type=submit]{
+    width: 100px;
+    height: 30px;
+    margin: 10px 0px 10px 260px;
+    outline: none;
+    background: white;
+    border: 1px solid #aaa;
+    cursor: pointer;
+}
+
+
+section#estimativa div#mapa{
+    float: left;
+    margin-left: 50px;
+    width: 600px;
+    height: 400px;
+}
+
+
+/*Pagina alterar perfil*/
+section#perfil {
+    margin-top: 60px;
+    padding-bottom: 60px;
+    width: 100%;
+    min-height: auto;
+    background-color: white;
+
+}
+
+section#perfil form{
+    margin-left: 450px;
+}
+
+section#perfil form label, section#avalia form label{
+    margin-left: 8px;
+    margin-top: 5px;
+} 
+
+section#perfil form input[type=text],
+section#perfil form input[type=password]{
+    width: 300px;
+    padding: 5px;
+    margin: 6px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #999;    
+}
+
+section#perfil form input[type=submit],section#avalia form input[type=submit],section#perfil form input[type=button]{
+    background: #12939a;
+    width: 148px;
+    padding: 5px;
+    color: white;
+    border: none;
+    margin: 4px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #999;
+}
+
+section#perfil form input[type=submit]:hover{
+    background: #555555;
+    width: 148px;
+    padding: 5px;
+    margin: 4px;
+    color: white;
+    outline: none;
+    border-radius: 3px;
+}
+
+section#perfil form input#save{
+    display: none;
+}
+section#perfil form input#alt:hover,section#perfil form input#save:hover{
+    background: transparent;
+    border: solid 1px #555555;
+    color:#12939a;
+    margin: 3px;
+}
+
+section#avalia{
+    margin-top: 60px;
+}
+
+section#avalia form{
+    margin-top: 80px;
+    margin-left: 200px;
+}
+
+section#avalia form textarea{
+    border-radius: 3px;
+    border: 1px #111111 solid;
+}
